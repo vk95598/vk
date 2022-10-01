@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="16" failures="0" name="com.cucumber.runner.RunnerTest" time="21.897" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\codebase\PetstoreDemo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\codebase\PetstoreDemo"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MAHESH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Mahesh Rane\Downloads\jdk-12.0.1_windows-x64_bin\jdk-12.0.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Users\Mahesh Rane\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\Mahesh Rane\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.8.6\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.6/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Mahesh Rane"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Mahesh Rane"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="(e2e) Validate that the response of the pets request is 200((e2e) Validate pets)" name="(e2e) Validate that the response of the pets request is 200(" time="4.679"/>
+  <testcase classname="(e2e) Validate that pets are in available status((e2e) Validate pets)" name="(e2e) Validate that pets are in available status(" time="1.325"/>
+  <testcase classname="(e2e) Validate post new pet((e2e) Validate pets)" name="(e2e) Validate post new pet(" time="1.785"/>
+  <testcase classname="(e2e) Validate update a pet((e2e) Validate pets)" name="(e2e) Validate update a pet(" time="1.345"/>
+  <testcase classname="(e2e) Validate delete a pet((e2e) Validate pets)" name="(e2e) Validate delete a pet(" time="1.245"/>
+  <testcase classname="(e2e) Validate that the response has the inventory((e2e) Validate store)" name="(e2e) Validate that the response has the inventory(" time="1.245"/>
+  <testcase classname="(e2e) Validate that the response has a order((e2e) Validate store)" name="(e2e) Validate that the response has a order(" time="0.675"/>
+  <testcase classname="(e2e) Validate that the response has the order by id((e2e) Validate store)" name="(e2e) Validate that the response has the order by id(" time="2.535"/>
+  <testcase classname="(e2e) Validate that the response has not the order deleted((e2e) Validate store)" name="(e2e) Validate that the response has not the order deleted(" time="1.575"/>
+  <testcase classname="(e2e) Validate post one user((e2e) Validate users)" name="(e2e) Validate post one user(" time="0.688"/>
+  <testcase classname="(e2e) Validate post create users with list((e2e) Validate users)" name="(e2e) Validate post create users with list(" time="0.624"/>
+  <testcase classname="(e2e) Validate that the response has the new user((e2e) Validate users)" name="(e2e) Validate that the response has the new user(" time="0.56"/>
+  <testcase classname="(e2e) Validate login into the system((e2e) Validate users)" name="(e2e) Validate login into the system(" time="0.601"/>
+  <testcase classname="(e2e) Validate logout current logged in user session((e2e) Validate users)" name="(e2e) Validate logout current logged in user session(" time="0.581"/>
+  <testcase classname="(e2e) Validate updated user((e2e) Validate users)" name="(e2e) Validate updated user(" time="1.155"/>
+  <testcase classname="(e2e) Validate deleted user((e2e) Validate users)" name="(e2e) Validate deleted user(" time="1.279"/>
+</testsuite>

@@ -1,0 +1,33 @@
+[
+  {
+    "id": 100511,
+    "username": "bobPop",
+    "firstName": "Bob",
+    "lastName": "Pop",
+    "email": "bobpop@petshop.com",
+    "password": "boolie",
+    "phone": "999999999",
+    "userStatus": 0
+  },
+  {
+    "id": 100512,
+    "username": "kateMiles",
+    "firstName": "Kate",
+    "lastName": "Miles",
+    "email": "kmiles@petshop.com",
+    "password": "phillie",
+    "phone": "999999999",
+    "userStatus": 0
+  },
+  {
+    "id": 100513,
+    "username": "mcFly",
+    "firstName": "Marty",
+    "lastName": "MacFly",
+    "email": "martymacfly@petshop.com",
+    "password": "emmett",
+    "phone": "999999999",
+    "userStatus": 4
+  }
+
+]
