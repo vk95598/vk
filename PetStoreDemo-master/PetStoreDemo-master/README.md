@@ -1,6 +1,7 @@
 Automation framework Assignment:
 
-Tool used - Idea IntelliJ Ultimate Edition
+Tool used - Idea IntelliJ Ultimate Edition.
+
 Test automation for https://petstore.swagger.io/ developed using Rest Assured, Java, Cucumber, BDD framework. 
 
 Steps to execute:
